@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED90CA9D2901A54200F59709 /* VDNHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CA9C2901A54200F59709 /* VDNHApp.swift */; };
+		ED90CA9F2901A54200F59709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CA9E2901A54200F59709 /* ContentView.swift */; };
+		ED90CAA42901A54400F59709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED90CAA32901A54400F59709 /* Preview Assets.xcassets */; };
+		ED90CAAF2901A92300F59709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED90CAAE2901A92300F59709 /* Assets.xcassets */; };
+		ED90CAB42901AC1300F59709 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CAB32901AC1300F59709 /* Location.swift */; };
+		ED90CAB72901ADD100F59709 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CAB62901ADD100F59709 /* LocationsDataService.swift */; };
+		ED90CAB92901B43400F59709 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CAB82901B43400F59709 /* LocationView.swift */; };
+		ED90CABB2901C10000F59709 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CABA2901C10000F59709 /* LocationViewModel.swift */; };
+		ED90CABD2903F65B00F59709 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CABC2903F65B00F59709 /* LocationListView.swift */; };
+		ED90CABF290412FE00F59709 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CABE290412FE00F59709 /* LocationPreviewView.swift */; };
+		ED90CAC32904326C00F59709 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CAC22904326C00F59709 /* LocationMapAnnotationView.swift */; };
+		ED90CAC5290457F300F59709 /* LocationDitailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90CAC4290457F300F59709 /* LocationDitailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED90CA992901A54200F59709 /* VDNH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDNH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED90CA9C2901A54200F59709 /* VDNHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDNHApp.swift; sourceTree = "<group>"; };
+		ED90CA9E2901A54200F59709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED90CAA32901A54400F59709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED90CAAE2901A92300F59709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED90CAB32901AC1300F59709 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		ED90CAB62901ADD100F59709 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		ED90CAB82901B43400F59709 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		ED90CABA2901C10000F59709 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		ED90CABC2903F65B00F59709 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		ED90CABE290412FE00F59709 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		ED90CAC22904326C00F59709 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		ED90CAC4290457F300F59709 /* LocationDitailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDitailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED90CA962901A54200F59709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED90CA902901A54200F59709 = {
+			isa = PBXGroup;
+			children = (
+				ED90CA9B2901A54200F59709 /* VDNH */,
+				ED90CA9A2901A54200F59709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED90CA9A2901A54200F59709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CA992901A54200F59709 /* VDNH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED90CA9B2901A54200F59709 /* VDNH */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CA9C2901A54200F59709 /* VDNHApp.swift */,
+				ED90CA9E2901A54200F59709 /* ContentView.swift */,
+				ED90CAB52901AD8A00F59709 /* DataServices */,
+				ED90CAB12901AAAA00F59709 /* Views */,
+				ED90CAB22901AAC200F59709 /* ViewModels */,
+				ED90CAB02901AA9400F59709 /* Models */,
+				ED90CAAE2901A92300F59709 /* Assets.xcassets */,
+				ED90CAA22901A54400F59709 /* Preview Content */,
+			);
+			path = VDNH;
+			sourceTree = "<group>";
+		};
+		ED90CAA22901A54400F59709 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CAA32901A54400F59709 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED90CAB02901AA9400F59709 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CAB32901AC1300F59709 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED90CAB12901AAAA00F59709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CAB82901B43400F59709 /* LocationView.swift */,
+				ED90CABC2903F65B00F59709 /* LocationListView.swift */,
+				ED90CABE290412FE00F59709 /* LocationPreviewView.swift */,
+				ED90CAC22904326C00F59709 /* LocationMapAnnotationView.swift */,
+				ED90CAC4290457F300F59709 /* LocationDitailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED90CAB22901AAC200F59709 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CABA2901C10000F59709 /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED90CAB52901AD8A00F59709 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				ED90CAB62901ADD100F59709 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED90CA982901A54200F59709 /* VDNH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED90CAA72901A54400F59709 /* Build configuration list for PBXNativeTarget "VDNH" */;
+			buildPhases = (
+				ED90CA952901A54200F59709 /* Sources */,
+				ED90CA962901A54200F59709 /* Frameworks */,
+				ED90CA972901A54200F59709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDNH;
+			productName = VDNH;
+			productReference = ED90CA992901A54200F59709 /* VDNH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED90CA912901A54200F59709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ED90CA982901A54200F59709 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = ED90CA942901A54200F59709 /* Build configuration list for PBXProject "VDNH" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED90CA902901A54200F59709;
+			productRefGroup = ED90CA9A2901A54200F59709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED90CA982901A54200F59709 /* VDNH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED90CA972901A54200F59709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED90CAAF2901A92300F59709 /* Assets.xcassets in Resources */,
+				ED90CAA42901A54400F59709 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED90CA952901A54200F59709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED90CAB72901ADD100F59709 /* LocationsDataService.swift in Sources */,
+				ED90CAC32904326C00F59709 /* LocationMapAnnotationView.swift in Sources */,
+				ED90CABB2901C10000F59709 /* LocationViewModel.swift in Sources */,
+				ED90CABF290412FE00F59709 /* LocationPreviewView.swift in Sources */,
+				ED90CA9F2901A54200F59709 /* ContentView.swift in Sources */,
+				ED90CAB92901B43400F59709 /* LocationView.swift in Sources */,
+				ED90CAC5290457F300F59709 /* LocationDitailView.swift in Sources */,
+				ED90CABD2903F65B00F59709 /* LocationListView.swift in Sources */,
+				ED90CAB42901AC1300F59709 /* Location.swift in Sources */,
+				ED90CA9D2901A54200F59709 /* VDNHApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED90CAA52901A54400F59709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED90CAA62901A54400F59709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED90CAA82901A54400F59709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VDNH/Preview Content\"";
+				DEVELOPMENT_TEAM = WUPLHJKG9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kirill.VDNH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED90CAA92901A54400F59709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VDNH/Preview Content\"";
+				DEVELOPMENT_TEAM = WUPLHJKG9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kirill.VDNH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED90CA942901A54200F59709 /* Build configuration list for PBXProject "VDNH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED90CAA52901A54400F59709 /* Debug */,
+				ED90CAA62901A54400F59709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED90CAA72901A54400F59709 /* Build configuration list for PBXNativeTarget "VDNH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED90CAA82901A54400F59709 /* Debug */,
+				ED90CAA92901A54400F59709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED90CA912901A54200F59709 /* Project object */;
+}
