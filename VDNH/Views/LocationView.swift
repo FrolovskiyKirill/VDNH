@@ -11,10 +11,7 @@ import MapKit
 struct LocationView: View {
     
     @EnvironmentObject private var vm: LocationViewModel
-//    @State private var  mapRegion: MKCoordinateRegion = MKCoordinateRegion(
-//        center: CLLocationCoordinate2D(latitude: 55.828595, longitude: 37.633715),
-//        span: MKCoordinateSpan(latitudeDelta: 0.025, longitudeDelta: 0.025)
-//    )
+    let maxWidthForIpad: CGFloat = 700
     
     var body: some View {
         ZStack {
@@ -23,6 +20,7 @@ struct LocationView: View {
             VStack(spacing: 0) {
                 header
                     .padding()
+                    .frame(maxWidth: maxWidthForIpad)
                 Spacer()
                 locationPreviewStack
             }
@@ -46,8 +44,8 @@ extension LocationView {
         VStack {
             Button(action: vm.toggleLocationList) {
                 Text(vm.mapLocation.name)
-                    .font(.title2)
-                    .fontWeight(.black)
+                    .font(.title)
+//                    .fontWeight(.black)
                     .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
@@ -91,6 +89,8 @@ extension LocationView {
                     LocationPreviewView(location: location)
                         .shadow(color: Color.black.opacity(0.7), radius: 20)
                         .padding()
+                        .frame(maxWidth: maxWidthForIpad)
+                        .frame(maxWidth: .infinity)
                         .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
                 }
             }
